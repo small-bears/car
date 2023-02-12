@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.dao.PinggubaojiaDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.entity.PinggubaojiaEntity" id="pinggubaojiaMap">
+        <result property="chexing" column="chexing"/>
+        <result property="pinpai" column="pinpai"/>
+        <result property="cheshenyanse" column="cheshenyanse"/>
+        <result property="shangpaishijian" column="shangpaishijian"/>
+        <result property="xingshilicheng" column="xingshilicheng"/>
+        <result property="chekuangmiaoshu" column="chekuangmiaoshu"/>
+        <result property="pinggujia" column="pinggujia"/>
+        <result property="yonghuming" column="yonghuming"/>
+        <result property="xingming" column="xingming"/>
+        <result property="lianxifangshi" column="lianxifangshi"/>
+    </resultMap>
+
+	<select id="selectListVO"
+		resultType="com.entity.vo.PinggubaojiaVO" >
+		SELECT * FROM pinggubaojia  pinggubaojia         
+        <where> 1=1 ${ew.sqlSegment}</where>
+	</select>
+	
+	<select id="selectVO"
+		resultType="com.entity.vo.PinggubaojiaVO" >
+		SELECT  pinggubaojia.* FROM pinggubaojia  pinggubaojia 	
+ 		<where> 1=1 ${ew.sqlSegment}</where>
+	</select>
+
+    <select id="selectListView"
+		resultType="com.entity.view.PinggubaojiaView" >
+
+		SELECT  pinggubaojia.* FROM pinggubaojia  pinggubaojia 	        
+        <where> 1=1 ${ew.sqlSegment}</where>
+	</select>
+	
+	<select id="selectView"
+		resultType="com.entity.view.PinggubaojiaView" >
+		SELECT * FROM pinggubaojia  pinggubaojia <where> 1=1 ${ew.sqlSegment}</where>
+	</select>
+	
+</mapper>

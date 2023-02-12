@@ -1,0 +1,271 @@
+/* 导航栏 */
+.nav {
+	background: #F3F3F3;
+}
+
+.layui-nav .layui-nav-item a {
+	color: #31C27C;
+}
+
+.layui-nav .layui-this:after,
+.layui-nav-bar,
+.layui-nav-tree .layui-nav-itemed:after {
+	background-color: #31C27C;
+}
+
+.layui-nav .layui-nav-item a:hover {
+	color: #FFFFFF;
+	background-color: #31C27C;
+}
+
+.layui-nav .layui-nav-child dd.layui-this a,
+.layui-nav-child dd.layui-this {
+	background-color: #31C27C;
+}
+
+.layui-nav-tree .layui-nav-child dd.layui-this, .layui-nav-tree .layui-nav-child dd.layui-this a, .layui-nav-tree .layui-this, .layui-nav-tree .layui-this>a, .layui-nav-tree .layui-this>a:hover {
+    background-color: #31C27C;
+    color: #fff;
+}
+
+/* 轮播图 */
+.layui-carousel[lay-indicator=outside] .layui-carousel-ind ul {
+	background-color: #FFFFFF;
+}
+
+.layui-carousel-ind li.layui-this {
+	background-color: #31C27C;
+}
+
+.layui-carousel-ind li {
+	background-color: #E0E0E0;
+}
+
+.layui-carousel-ind li:hover {
+	background-color: #E0E0E0;
+}
+/* 首页标题 */
+.index-title {
+	color: #31C27C;
+}
+
+/* 首页新闻 */
+.news-home-container {
+	background: #e5e5e5;
+}
+
+.news-home-container .layui-colla-item {
+	border: 1px solid #EEEEEE;
+}
+
+.news-home-container .layui-colla-content {
+	background: #FFFFFF;
+}
+
+.news-home-container .layui-colla-title {
+	background: #d1d1d1;
+	border: 1px solid #EEEEEE;
+	color: #515151;
+}
+
+.news-home-container .layui-colla-title:hover {
+	background: #31C27C;
+	color: #FFFFFF;
+}
+
+.news-home-container .layui-card-header {
+	background: #d1d1d1;
+	border: 1px solid #FFFFFF;
+	color: #515151;
+}
+
+/* 图文列表 */
+.data-container:nth-child(odd) {
+	background-color: #F3F3F3;
+}
+
+.data-container .data-list .data-item:hover {
+	border: 2px dashed #31C27C;
+}
+
+.data-container .data-list .data-item .title:hover {
+	color: #FFFFFF;
+	background: #31C27C;
+}
+
+
+.data-container .data-list .data-item .title {
+	background: #f0f0f0;
+	color: #31C27C;
+}
+
+.data-container .data-list .data-item .price {
+	color: #31C27C;
+}
+
+/* 详情页 */
+.data-detail {
+	background: #FFFFFF;
+}
+
+.data-detail-breadcrumb {
+	background: #EEEEEE;
+	color: #515151;
+}
+
+.data-detail .title {
+	color: #515151;
+	border: 3px dotted #EEEEEE;
+}
+
+.data-detail .count-container {
+	color: #FFFFFF;
+}
+
+.data-detail .count-container .number {
+	background: #443b3b;
+}
+
+.data-detail .tool-container{
+	border: 3px dotted #EEEEEE;
+}
+
+.data-detail .price{
+	color: #31C27C;
+}
+
+
+.layui-tab-card>.layui-tab-title .layui-this {
+    background-color: #31C27C;
+	color: #FFFFFF;
+}
+
+/* 底部导航栏 */
+.nav-bottom {
+	background: #31C27C;
+}
+
+.nav-bottom .layui-nav-item a {
+	color: #FFFFFF;
+}
+
+/* banner */
+.banner {
+	background: #31C27C;
+}
+
+/* 新闻资讯 */
+.news-container .news-list .news-item .detail-container .h2 {
+	color: #4e6990;
+}
+
+.news-container .news-list .news-item .detail-container .desc {
+	color: #515151;
+}
+
+.news-container .news-list .news-item .detail-container .create-time {
+	color: #515151;
+}
+
+.news-container .title {
+	color: #31C27C;
+}
+
+
+.news-container .bottom-container .btn {
+	background: #31C27C;
+	color: #FFFFFF;
+}
+
+/* 论坛 */
+
+.forum-container .bottom-container .btn {
+	background: #31C27C;
+	color: #FFFFFF;
+}
+
+.forum-container .forum-list .forum-item:hover {
+	background: #31C27C;
+	color: #FFFFFF;
+}
+
+.forum-container .forum-list .forum-item.line:hover {
+	background: #31C27C;
+	color: #FFFFFF;
+}
+
+/* 考试 */
+.paper-container thead tr{
+	background: #31C27C ;
+	color: #FFFFFF;
+}
+
+.paper-container tbody tr:hover{
+	color: #FFFFFF;
+	background-color: #31C27C;
+}
+
+/* 个人中心 */
+
+.center-container  .layui-nav .layui-nav-more {
+    border-color: #515151 transparent transparent;
+}
+
+.center-container .layui-nav-itemed>a, .layui-nav-tree .layui-nav-title a, .layui-nav-tree .layui-nav-title a:hover {
+    color: #515151 !important;
+}
+
+.center-container  .layui-nav .layui-nav-mored, .layui-nav-itemed>a .layui-nav-more {
+    border-color: transparent transparent #515151;
+}
+
+.center-container .layui-nav {
+    background-color: #FFFFFF;
+    color: #515151;
+}
+
+.center-container .layui-nav-itemed>.layui-nav-child {
+    background-color: #FFFFFF !important;
+}
+
+.center-container .layui-nav-tree .layui-nav-bar {
+    width: 5px;
+    height: 0;
+    background-color: #31C27C;
+}
+
+/* 分页插件 */
+.layui-laypage .layui-laypage-curr .layui-laypage-em {
+	background-color: #31C27C;
+}
+
+.layui-laypage a:hover {
+	color: #31C27C;
+}
+
+.btn-submit {
+	background: #31C27C;
+}
+
+.btn-theme{
+	background: #31C27C;
+}
+
+
+/* checkbox */
+.layui-form-radio>i:hover, .layui-form-radioed>i {
+    color: #31C27C;
+}
+
+.layui-form-select dl dd.layui-this {
+    background-color: #31C27C;
+    color: #fff;
+}
+
+.layui-tab-brief>.layui-tab-title .layui-this {
+    color: #31C27C;
+}
+
+.layui-tab-brief>.layui-tab-more li.layui-this:after, .layui-tab-brief>.layui-tab-title .layui-this:after {
+    border-bottom: 2px solid #31C27C;
+}
