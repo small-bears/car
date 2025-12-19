@@ -1,40 +1,55 @@
 
-基于SSM框架的汽车租赁系统
+### 联系方式（微信扫一扫）:
+<img width="444" height="560" alt="2fc79856-4bde-42f0-a5ea-83281867fbbe" src="https://github.com/user-attachments/assets/3eaeeaef-8fda-4c05-9f80-9e5361650c4a" />
+
+### 计算机毕设定制（直接点击链接）：https://www.yuque.com/techninja/code/xrpvpxbu3y8fa3ey?singleDoc#
+## 一、获取地址:
+
+#### 项目获取地址：https://www.666bear.com/12556.html
+
+**博主介绍：✌全网粉丝30W+,csdn特邀作者、Java领域优质创作者、csdn/掘金/哔哩哔哩/知乎/道客/小红书等平台优质作者，计算机毕设实战导师，目前专注于大学生项目实战开发,讲解,毕业答疑辅导✌工作室接计算机毕业设计程序开发、论文代写、代码讲解、出售成品源码等毕设服务，专业靠谱~**
+
+#### 作者QQ：3289948684 微信：bysj7626 (支持修改、 部署调试、 代做接毕业设计和课程设计)
+
+#### 接网站建设、小程序、H5、APP、各种系统、样式修改等
+
+#### 选题+开题报告+任务书+程序定制+安装调试+论文+答辩ppt 都可以做
+
+#### 有需求尽管甩过来！一条龙帮你安心过！
+
+#### 所有项目以及源代码本人均调试运行无问题 可支持远程调试运行
 
 ## 一、 项目介绍
-    基于ssm二手车交易管理系统（带文档）
+(协同过滤推荐算法+AI智能助手)基于SpringBoot的小区的车辆管理系统分为前台模块（访客人员、业主）及后台模块（管理员、物业管理人员），具体功能如下：
 
-    本系统主要分为用户和管理员两个角色
+（1）前台访客人员模块：首页、停车位、充电桩、公告信息、AI 智能客服、个人中心（含修改密码、临时通行、访客预约地址、访客登记信息、访客通知记录、访客充电结束、我的收藏）
+（2）前台业主模块：首页、停车位、充电桩、公告信息、AI 智能客服、个人中心（含修改密码、业主车位预约、业主进场信息、业主出场信息、业主充电记录、业主充电结束、我的收藏）
+（3）后台管理员模块：系统首页、物业管理人员、访客管理、停车位管理、业主车辆预约管理、业主进场信息管理、业主出场信息管理、确定进场管理、访客进场信息管理、访客出场信息管理、访客通知提醒管理、访客预约管理、业主充电预约管理、业主充电记录管理、访客充电预约管理、访客充电记录管理、访客管理系统、个人中心
+（4）后台物业管理人员模块：系统首页、访客人员管理、业主管理、停车位管理、业主车辆预约管理、业主进场信息管理、业主出场信息管理、临时通行证管理、访客进场信息管理、访客通知提醒管理、访客出场信息管理、业主充电预约管理、业主充电记录管理、访客充电预约管理、访客充电记录管理、AI 智能客服管理、个人中心
 
-    其中用户的功能有用户注册和登陆系统，用户查网站新闻，查看二手车，在线预定，提交自己的二手车信息进行预估，查看预估报价结果。
 
-    管理员可以登陆系统，对二手车分类，二手车信息，用户预约定金，评估报价等信息进行管理。
+## 二、 视频演示（点击既可以看到）
+https://www.bilibili.com/video/BV1svyYBCEco/?spm_id_from=333.1387.search.video_card.click&vd_source=e51e8ec2fb03314ad9fa517492a2ce94
 
-<h2 id="uee142c35" class="ne-p"><span class="ne-text">视频演示</span></h2>
-<p style="text-align: center;"><strong><span class="ne-text">建议点击这个</span><a style="color: #ff0000;" href="https://www.bilibili.com/video/BV1GY411D7pS/?spm_id_from=333.999.0.0&amp;vd_source=b5789de9f485ad6d0cfaeca1ad4b230c">“链接”</a>查看高清视频</strong></p>
-
-## 二、 运行环境
-    开发语言：Java
-
-    开发工具：IDEA，Eclipse,Myeclipse都可以。推荐IDEA
-
-    JDK版本：1.8
-
-    数据库: MySQL5.7（必须5.7）
-
-    Tomcat环境：Tomcat 7.x,8.x,9.x版本均可
-
-    项目管理：Maven
 
 ## 三、项目技术
-    后端：SSM(Spring+SpringMVC+Mybatis)
 
-    前端：JSP+CSS+JS+JQUERY+Layui
+后端： SpringBoot+Mybaits
 
-## 四、运行截图（点图片可放大）
+前端：Vue +ELementUI 
 
-![O1CN01xUZftB2EAU8ukddib_!!0-fleamarket jpg_q50 j](https://user-images.githubusercontent.com/124327024/218299725-1fb9635a-68d9-4c48-8b96-77d5e45dbc22.jpg)
-![O1CN019XEPr62EAU8sypSsF_!!0-fleamarket jpg_q50 j](https://user-images.githubusercontent.com/124327024/218299727-8158c61c-49eb-4bff-9251-9cedcf728174.png)
-![1675736144476](https://user-images.githubusercontent.com/124327024/218299728-6fe8cba4-2979-4c81-a961-6d4ad9b72c73.jpg)
-![O1CN01m5veGA2EAU8zE3Loc_!!0-fleamarket jpg_q50 j](https://user-images.githubusercontent.com/124327024/218299729-832a88b9-b950-4249-a312-88aa7b96d4df.jpg)
 
+
+## 四、 运行环境
+
+开发语言：Java
+
+开发工具：IDEA，Eclipse,Myeclipse都可以。推荐IDEA
+
+JDK版本：1.8
+
+数据库: MySQL8.0版本以上
+
+项目管理：Maven
+## 五、 运行截图（点图片可放大）
+https://www.bilibili.com/video/BV1svyYBCEco/?spm_id_from=333.1387.search.video_card.click&vd_source=e51e8ec2fb03314ad9fa517492a2ce94
